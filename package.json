@@ -1,0 +1,53 @@
+{
+    "name": "vite-react-route-template",
+    "version": "0.0.0",
+    "scripts": {
+        "dev": "vite --open",
+        "build": "tsc && vite build",
+        "preview": "vite preview",
+        "lint": "eslint --ext .ts,.tsx src",
+        "format": "prettier --write src",
+        "storybook": "start-storybook -p 6006",
+        "build-storybook": "build-storybook"
+    },
+    "dependencies": {
+        "@emotion/react": "^11.7.0",
+        "@emotion/styled": "^11.6.0",
+        "@mui/icons-material": "^5.2.1",
+        "@mui/material": "^5.2.3",
+        "axios": "^0.24.0",
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2",
+        "react-error-boundary": "^3.1.4",
+        "react-router-dom": "^6.0.2"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.16.5",
+        "@storybook/addon-actions": "^6.4.9",
+        "@storybook/addon-essentials": "^6.4.9",
+        "@storybook/addon-links": "^6.4.9",
+        "@storybook/react": "^6.4.9",
+        "@types/react": "^17.0.33",
+        "@types/react-dom": "^17.0.10",
+        "@vitejs/plugin-react": "^1.0.7",
+        "babel-loader": "^8.2.3",
+        "eslint": "^8.4.1",
+        "eslint-config-prettier": "^8.3.0",
+        "eslint-plugin-prettier": "^4.0.0",
+        "eslint-plugin-react": "^7.27.1",
+        "prettier": "^2.5.1",
+        "typescript": "^4.4.4",
+        "vite": "^2.7.0"
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 safari version",
+            "last 1 firefox version"
+        ]
+    }
+}
