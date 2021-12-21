@@ -1,4 +1,3 @@
-import './App.css';
 import { WithChildren } from './models/typehelpers';
 import { BrowserRouter as RouteProvider } from 'react-router-dom';
 import Main from './Components/Main';
